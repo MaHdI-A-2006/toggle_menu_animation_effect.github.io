@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>full screen hamburger toggle menu animation effect using html css js</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="open icon center">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="wrapper">
+            <nav class="navbar">
+                <div class="close icon center">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                </div>
+                <div class="list">
+                    <a href="" class="link center">Home</a>
+                    <a href="" class="link center">Tours</a>
+                    <a href="" class="link center">About us</a>
+                    <a href="" class="link center">Offer</a>
+                    <a href="" class="link center">Contact</a>
+                </div>
+            </nav>
+        </div>
+        <header class="header"></header>
+    </div>
+    <script>
+
+        const container = document.querySelector(".container");
+        document.querySelector(".open").addEventListener("click", () => {
+            container.classList.add("change");
+        });
+
+        document.querySelector(".close").addEventListener("click", () =>{
+            container.classList.remove("change");
+        });
+
+        const colors = ["#6495ed", "#7fffd4", "#ffa07a", "#f08080", "#afeeee"]
+
+
+
+
+
+    </script>
+
+    </div>
+</body>
+</html>
